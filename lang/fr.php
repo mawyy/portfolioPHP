@@ -22,10 +22,11 @@
 	define('GET_IN_TOUCH', 'Faisons connaissance');
 	
 	//---------------------------------------------------------
-	// MENU LANGUE
+	// MENU LANGUE ET FLECHE TOP
 	//---------------------------------------------------------
 
 	define('LANG', 'FR');
+	define('FLECHE_UP', 'Haut de page');
 
 	//---------------------------------------------------------
 	// INTRO ACCUEIL

@@ -93,7 +93,7 @@
 				</section>
 			
 				<!-- Up to page top arrow -->
-				<a href="#" title="Up to page top" class="scrolly scrollup"><i class="fa fa-arrow-up"></i></a>
+				<a href="#" title="<?php echo FLECHE_UP;?>" class="scrolly scrollup"><i class="fa fa-arrow-up"></i></a>
 
 				<!-- Section Projects -->
 				<section id="projects">					
@@ -101,40 +101,31 @@
 						<h2><?php echo PROJETS;?></h2>
 					</header>
 					<div class="content">
-						<p><strong>Few Front and Design projects I worked on</strong>, during my Web Development studies.</p>
+						<p><?php echo PJT_TITLE;?></p>
 
 						<!-- Section Orange -->
 							<section>
 								<header>
-									<h3>Mobile e-shop of Orange and Sosh France<br>
-										(2019)</h3>
-									<p>Improvement of the color bullets on the phone list and 
-										implementation of the delayed display of scrolled pictures, in a worry of web performance and 
-										<b>User eXperience</b>, because of total loading time reduced. 
-									</p>
+									<h3><?php echo ORANGE_H3;?></h3>
+									<p><?php echo ORANGE_P;?></p>
 								</header>
 								<div class="content">
 									<div class="gallery">
-										<p class="legend">The app is made with Java and Thymeleaf languages.</p>
-										<p class="legend">I replaced the previous bullets on these pages, which were images, by a SVG composant. 
-											SVG forms are directly drawn by the navigator, so they don't call the server to be displayed.
-											This way, the number of the requests is reduced and so the total loading time of the page too.
-										</p>
-										<a href="images/gallery/fulls/orange01.png" title="">
-											<img class="img-lazy" data-src="images/gallery/thumbs/orange01.png" data-alt="Liste mobiles Orange"/>
+										<p class="legend"><?php echo ORANGE_LEG1;?></p>
+										<p class="legend"><?php echo ORANGE_LEG2;?></p>
+										<a href="images/gallery/fulls/orange01.png">
+											<img class="img-lazy" data-src="images/gallery/thumbs/orange01.png" data-alt="Orange Mobile List"/>
 										</a>
-										<a href="images/gallery/fulls/orange02.png" title="">
-											<img class="img-lazy" data-src="images/gallery/thumbs/orange02.png" data-alt="Liste mobiles Sosh"/>
+										<a href="images/gallery/fulls/orange02.png">
+											<img class="img-lazy" data-src="images/gallery/thumbs/orange02.png" data-alt="Sosh Mobile List"/>
 										</a>
-										<p class="legend">Then, I've added a javascript method to lazy load images, in order to avoid 
-											loading images which will never be seen by the user. Now, pictures are only loaded if the user
-											scroll down, resize or change the orientation (portrait or landscape) of the screen.</p>
-										<p class="legend">Click on the pictures below to see the demo.</p>
-										<a href="images/gallery/fulls/orange03.gif" class="demi-landscape" title="Images différées Orange">
-											<img class="img-lazy" data-src="images/gallery/thumbs/orange03.png" data-alt="Images différées Orange"/>
+										<p class="legend"><?php echo ORANGE_LEG3;?></p>
+										<p class="legend"><?php echo ORANGE_LEG_DEMO;?></p>
+										<a href="images/gallery/fulls/orange03.gif" class="demi-landscape">
+											<img class="img-lazy" data-src="images/gallery/thumbs/orange03.png" data-alt="Orange Lazyloading"/>
 										</a>
-										<a href="images/gallery/fulls/orange04.gif" class="demi-landscape" title="Images différées Sosh">
-											<img width="100%" class="img-lazy" data-src="images/gallery/thumbs/orange04.png" data-alt="Images différées Sosh"/>
+										<a href="images/gallery/fulls/orange04.gif" class="demi-landscape">
+											<img width="100%" class="img-lazy" data-src="images/gallery/thumbs/orange04.png" data-alt="Sosh Lazyloading"/>
 										</a>
 									</div>
 								</div>
@@ -143,26 +134,16 @@
 						<!-- Section Amuse-Bouche -->
 							<section>
 								<header>
-									<h3>Amuse-Bouche<br>
-										(2019)</h3>
-									<p>Creation of all the concept and the visual identity of a fictive company of canelés, 
-										the Bordeaux's famous speciality, as part of the <b>Ergonomy module</b> 
-										of my third year of Web Development studies.
-									</p>
-									<p>From the choice of the company's concept and positioning, to it's name, logo, graphical charter, and website's mock-up.</p>
-									<p><a href="files/Amuse-Bouche_report.pdf" target="_blank"><i class="far fa-file-pdf"></i> Get the report (FR)</a></p>
+									<h3><?php echo AB_H3;?></h3>
+									<p><?php echo AB_P1;?></p>
+									<p><?php echo AB_P2;?></p>
+									<p><a href="files/Amuse-Bouche_report.pdf" target="_blank"><i class="far fa-file-pdf"></i> <?php echo AB_REPORT;?></a></p>
 								</header>
 								<div class="content">
 									<div class="gallery">
-										<p class="legend">I choose a concept in which the lab would be placed in Shanghai (China), 
-											because they are good clients for French food. I identified the luxury market to sell the canelés 
-											of my client and wanted suitable graphical chart and visual identity for the website. Please 
-											<a href="files/Amuse-Bouche_report.pdf" target="_blank">read the report</a> to have 
-											all the details of the project. </p>
-										<p class="legend">Technologies used: Photoshop and Just in Mind.</p>
-										<p class="legend">You can see below the home page and an exemple of product detail, in desktop and mobile version. 
-											Click on the pictures to see full pages.
-										</p>
+										<p class="legend"><?php echo AB_LEG1;?></p>
+										<p class="legend"><?php echo AB_LEG2;?></p>
+										<p class="legend"><?php echo AB_LEG3;?></p>
 										<a href="images/gallery/fulls/amusebouche01.PNG" class="demi-landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/amusebouche01.PNG" data-alt="Desktop Home" />
 										</a>
@@ -176,7 +157,7 @@
 										<a href="images/gallery/fulls/amusebouche05.PNG">
 											<img class="img-lazy" data-src="images/gallery/thumbs/amusebouche05.PNG" data-alt="Mobile Detail" />
 										</a>
-										<p class="legend">And here, the desktop version of the list of the products and the basket.</p>
+										<p class="legend"><?php echo AB_LEG4;?></p>
 										<a href="images/gallery/fulls/amusebouche02.PNG" class="demi-landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/amusebouche02.PNG" data-alt="Desktop List of products" />
 										</a>
