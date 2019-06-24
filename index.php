@@ -101,7 +101,7 @@
 						<h2><?php echo PROJETS;?></h2>
 					</header>
 					<div class="content">
-						<p><?php echo PJT_TITLE;?></p>
+						<p><?php echo PJT_DESC;?></p>
 
 						<!-- Section Orange -->
 							<section>
@@ -171,22 +171,15 @@
 						<!-- Section Catalogue de films -->
 							<section>
 								<header>
-									<h3>Movie catalog app<br>
-										(2019)</h3>
-									<p>Creation of a personal catalog in which you can store all your favourite movies and give them a mark,
-										as part of a <b>Web module</b> of my third year of Web Development studies.
-									</p>
-									<p>From the conception and development to the graphical design.</p>
+									<h3><?php echo MOVIE_H3;?></h3>
+									<p><?php echo MOVIE_P1;?></p>
+									<p><?php echo MOVIE_P2;?></p>
 									<!-- <a href="#"><i class="far fa-hand-point-right"></i> Try it</a> -->
 								</header>
 								<div class="content">
 									<div class="gallery">
-										<p class="legend">In this movie app, you can simply add, edit informations and delete a movie of your choice. 
-											On the home page, the language, genre and synopsis of the movie appear when the mouse hover on the movie,
-											as you can see on the second movie below. You can search a movie too, by title, genre or director name. The list
-											of search results is updated every letter written. The app is made with the frameworks Vue.js and Vuetify.
-										</p>
-										<p class="legend">Click on the pictures to see full pages.</p>
+										<p class="legend"><?php echo MOVIE_LEG1;?></p>
+										<p class="legend"><?php echo MOVIE_LEG2;?></p>
 										<a href="images/gallery/fulls/films01.png" class="landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/films01.png" data-alt="" />
 										</a>
@@ -200,18 +193,14 @@
 						<!-- Section Yummical -->
 						<section>
 								<header>
-									<h3>Yummical app<br>
-										(2019)</h3>
-									<p>Creation of an app to mesure the calories consumed in your daily meals,
-										as part of the <b>PHP module</b> of my third year of Web Development studies.
-									</p>
-									<p>From the conception and development to the graphical design.</p>
+									<h3><?php echo YUM_H3;?></h3>
+									<p><?php echo YUM_P1;?></p>
+									<p><?php echo YUM_P2;?></p>
 									<!-- <a href="#"><i class="far fa-hand-point-right"></i> Try it</a> -->
 								</header>
 								<div class="content">
 									<div class="gallery">
-										<p class="legend">This app is made with the frameworks Laravel and Bootstrap. You have to log in first, and then 
-											you are allowed to manage all your meals by adding the ingredients and see how much calories you have eaten.</p>
+										<p class="legend"><?php echo YUM_LEG1;?></p>
 										<a href="images/gallery/fulls/yummical01.png" class="landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/yummical01.png" data-alt="" />
 										</a>
@@ -263,16 +252,15 @@
 						<h2><?php echo ILLUSTRATIONS;?></h2>
 					</header>
 					<div class="content">
-						<p><strong>I like drawing portraits from real pictures with some shadow games.</strong></p>
+						<p><?php echo ILLU_DESC;?></p>
 						<!-- Section Sketches -->
 						<section>
 							<header>
-								<h3>Sketches</h3>
-								<p>Charcoal handrawings</p>
+								<h3><?php echo SKTCH_H3;?></h3>
+								<p><?php echo SKTCH_P1;?></p>
 							</header>
 							<div class="gallery">
-								<p class="illu-legend">I began with mangas when I was a child, and now I continue to draw by feeling, still in self-taught. I am impressed by
-									realistic drawings and paintings.</p>
+								<p class="illu-legend"><?php echo SKTCH_LEG1;?></p>
 								<a href="images/gallery/fulls/dessin01.PNG">
 									<img class="img-lazy" data-src="images/gallery/thumbs/dessin01.JPG" data-alt="" />
 								</a>
@@ -303,27 +291,18 @@
 						<!-- Section Videos -->
 						<section>
 							<header>
-								<h3>Draw my life<br>
-									<span class="capitalize">(May 2018)</span></h3>
-								<p>Video made to introduce myself during my assessment session,
-									in order to integrate a formation program aiming to become a shop manager, 
-									when I worked in sales at <i>Pull And Bear Bordeaux</i>.
-								</p>
-								<p>Made on the concept of a <b>Draw my life</b>.</p>
-								<p>Selected <i>Best Presentation</i> among all.</p>
+								<h3><?php echo DML_H3;?></h3>
+								<p><?php echo DML_P1;?></p>
+								<p><?php echo DML_P2;?></p>
+								<p><?php echo DML_P3;?></p>
 							</header>
 							<div class="content">
 								<div class="gallery">
-									<p class="legend">I've realized the illustrations with an erasable felt and some papers.
-										I filmed myself drawing with my Canon camera and I made the video editing
-										with Sony Vegas. 
-									</p>
+									<p class="legend"><?php echo DML_LEG1;?></p>
 									<video data-alt="Video de présentation" title="Video de présentation" 
 										width="100%" height="100%" poster="images/gallery/thumbs/assessment01.png" controls>
 										<source src="images/gallery/fulls/assessment01.mp4" type="video/mp4"/>
-										<p>Sorry, your browser doesn't support embedded videos. 
-											<a href="images/gallery/fulls/assessment01.mp4">Download it</a>.
-										</p>
+										<p><?php echo DML_VID_ERR;?></p>
 									</video>
 									
 								</div>
@@ -340,20 +319,17 @@
 						<h2><?php echo PRINTS;?></h2>
 					</header>
 					<div class="content">
-						<p><strong>Print projects</strong> made in freelance.</p>
+						<p></p>
 
 						<!-- Section Soja -->
 							<section>
 								<header>
-									<h3>Packaging of Soya Powder<br>
-										<span class="capitalize">(June 2018)</span></h3>
-									<p>Creation of a Soya Powder product's packaging, 
-										for an organic soya producer in Antananarivo, Madagascar.
-									</p>
+									<h3><?php echo SOJA_H3;?></h3>
+									<p><?php echo SOJA_P1;?></p>
 								</header>
 								<div class="content">
 									<div class="gallery">
-										<p class="legend">The client wanted something clean, streamlined and monochrome.</p>
+										<p class="legend"><?php echo SOJA_LEG1;?></p>
 										<a href="images/gallery/fulls/soja01.jpg" class="landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/soja01.jpg" data-alt="" />
 										</a>
@@ -370,20 +346,17 @@
 						<!-- Section Restaurant sign -->
 							<section>
 								<header>
-									<h3>Fong Mei<br>
-										<span class="capitalize">(November 2018)</span></h3>
-									<p>Creation of the visual sign of <i>Fong Mei</i> cantonese restaurant,
-										based in Antananarivo Madagascar.</p>
+									<h3><?php echo RESTAU_H3;?></h3>
+									<p><?php echo RESTAU_P1;?></p>
 								</header>
 								<div class="content">
 									<div class="gallery">
-										<p class="legend">The client wanted something very simple to open their restaurant quickly.</p>
-										<p class="legend">They only gave me the dimensions of the final sign and the name of the restaurant in different languages
-											without any particular demand.</p>
+										<p class="legend"><?php echo RESTAU_LEG1;?></p>
+										<p class="legend"><?php echo RESTAU_LEG2;?></p>
 										<a href="images/gallery/fulls/restau01.png" class="landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/restau01.png" data-alt="Visuel choisi" />
 										</a>
-										<p class="legend">These are other propositions made.</p>
+										<p class="legend"><?php echo RESTAU_LEG3;?></p>
 										<a href="images/gallery/fulls/restau05.png" class="demi-landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/restau05.png" data-alt="Panneau du restaurant" />
 										</a>
@@ -403,15 +376,12 @@
 						<!-- Section Affiches BDE -->
 							<section>
 								<header>
-									<h3>Posters<br>
-										<span class="capitalize">(2014-2015)</span></h3>
-									<p>Communication posters made when I was a member of the students' association (Bureau des étudiants)
-										during my second year in Computing Science.
-									</p>
+									<h3><?php echo BDE_H3;?></h3>
+									<p><?php echo BDE_P1;?></p>
 								</header>
 								<div class="content">
 									<div class="gallery">
-										<p class="legend">These posters were made to communicate about the students association's events.</p>
+										<p class="legend"><?php echo BDE_LEG1;?></p>
 										<a href="images/gallery/fulls/poster01.jpg" class="portrait">
 											<figure>
 												<img class="img-lazy" data-src="images/gallery/thumbs/poster01.jpg" data-alt="Affiche" title="Affiche propagande reprise de l'asso étudiante"/>
@@ -429,9 +399,7 @@
 										<a href="images/gallery/fulls/poster05.jpg" class="landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/poster05.jpg" data-alt="Flyers WEI" title="Flyers WEI recto"/>
 										</a>
-										<p class="legend">The poster and those flyer (recto-verso) below were realized for my Communication teacher, in order to communicate about the "Forum des anciens" event
-											that she has managed for the Institute (IUT) in 2015. 
-										</p>
+										<p class="legend"><?php echo BDE_LEG2;?></p>
 										<a href="images/gallery/fulls/poster06.jpg" class="portrait">
 											<img class="img-lazy" data-src="images/gallery/thumbs/poster06.jpg" data-alt="Affiche WEI" title="Affiche WEI"/>
 										</a>
@@ -455,9 +423,7 @@
 				<section id="skills">
 					<header>
 						<h2><?php echo COMPETENCES;?></h2>
-						<p><i class="far fa-file-pdf"></i> Show my resume in 
-							<a href="#" target="_blank">FR</a> or in 
-							<a href="#" target="_blank">EN</a></p>
+						<p></p>
 					</header>
 					<div class="content container">
 						<div class="row">
@@ -492,14 +458,11 @@
 							<!-- Section Voyages -->
 							<section>
 								<header>
-									<p>Discovering the world...</p>
+									<p><?php echo CARTE_P1;?></p>
 								</header>
 								<div class="content">
 									<div class="map-container"> 
-										<div class="map-text"><p>These are all the countries that I have 
-											<span class="map-text-visited">visited</span> or 
-											<span class="map-text-lived">lived in</span>.
-										</div>
+										<div class="map-text"><p><?php echo CARTE_TXT;?></p></div>
 										<div class="world-map">
 											<span class="hovertext"></span>
 											<svg id="map-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" viewBox="0 0 1008 650">
@@ -515,7 +478,7 @@
 													<path id="AZ" title="Azerbaijan" d="M601.43,342.46l0.83,0.97l1.24,-0.01l-0.01,0.56l1.14,2.08l-1.92,-0.48l-1.42,-1.66l-0.44,-1.37L601.43,342.46zM608.08,337.03l1.24,0.25l0.48,-0.95l1.67,-1.51l1.47,1.97l1.43,2.62l1.31,0.17l0.86,0.99l-2.31,0.29l-0.49,2.82l-0.48,1.26l-1.03,0.84l0.08,1.77l-0.7,0.18l-1.75,-1.87l0.97,-1.78l-0.83,-1.06l-1.05,0.27l-3.31,2.66l-0.06,-2.5l-1.26,-0.59l-1.19,-0.99l0.79,-1.16l-1.49,-1.26l0.56,-0.92l-1.07,-0.64l-0.58,-0.97l0.69,-0.61l2.09,1.07l1.51,0.22l0.38,-0.43l-1.38,-2.02l0.73,-0.52l0.79,0.13L608.08,337.03z" class="land"></path>
 													<path id="BA" title="Bosnia and Herzegovina" d="M528.54,323.11L529.56,323.1L528.86,324.82L530.21,326.32L529.8,328.14L529.14,328.31L528.61,328.67L527.7,329.56L527.29,331.66L524.81,330.22L523.75,328.61L522.68,327.76L521.39,326.31L520.79,325.1L519.41,323.27L520,321.63L521.01,322.54L521.61,321.72L522.92,321.63L525.33,322.29L527.27,322.23z" class="land"></path>
 													<path id="BD" title="Bangladesh" d="M735.09,400.41L735.04,402.56L734.06,402.1L734.24,404.51L733.44,402.95L733.28,401.43L732.74,399.98L731.57,398.22L728.99,398.1L729.25,399.35L728.37,401.02L727.17,400.41L726.76,400.96L725.97,400.63L724.89,400.36L724.45,397.88L723.48,395.6L723.95,393.76L722.23,392.94L722.85,391.82L724.6,390.67L722.58,389.04L723.57,386.93L725.79,388.27L727.13,388.43L727.38,390.58L730.04,391L732.65,390.95L734.26,391.48L732.97,394.07L731.71,394.25L730.85,395.98L732.38,397.56L732.84,395.62L733.62,395.61z" class="land"></path>
-													<path id="BE" title="Belgium" class="land visited" d="M484.55,295.91L486.6,296.26L489.2,295.33L490.97,297.28L492.52,298.32L492.2,301.29L491.47,301.45L491.16,303.88L488.71,301.91L487.27,302.25L485.31,300.19L484.01,298.42L482.71,298.35L482.3,296.79z"></path>
+													<path id="BE" title="<?php echo CARTE_BE;?>" class="land visited" d="M484.55,295.91L486.6,296.26L489.2,295.33L490.97,297.28L492.52,298.32L492.2,301.29L491.47,301.45L491.16,303.88L488.71,301.91L487.27,302.25L485.31,300.19L484.01,298.42L482.71,298.35L482.3,296.79z"></path>
 													<path id="BF" title="Burkina Faso" d="M467.33,436.4L465.41,435.67L464.09,435.78L463.11,436.49L461.85,435.89L461.36,434.96L460.1,434.34L459.91,432.7L460.68,431.49L460.61,430.53L462.84,428.17L463.25,426.21L464.02,425.51L465.38,425.89L466.55,425.31L466.93,424.57L469.11,423.29L469.64,422.39L472.26,421.19L473.81,420.78L474.51,421.33L476.3,421.32L476.08,422.72L476.46,424.03L478.04,425.9L478.12,427.28L481.36,427.93L481.29,429.88L480.68,430.74L479.31,431L478.74,432.24L477.78,432.56L475.32,432.5L474.02,432.28L473.12,432.74L471.88,432.53L467.01,432.66L466.94,434.27z" class="land"></path>
 													<path id="BG" title="Bulgaria" d="M538.78,325.56L539.59,327.16L540.67,326.87L542.83,327.48L546.95,327.68L548.34,326.69L551.64,325.79L553.68,327.2L555.33,327.61L553.87,329.2L552.85,331.93L553.75,334.09L551.34,333.58L548.48,334.76L548.45,336.62L545.9,336.97L543.93,335.67L541.68,336.7L539.61,336.59L539.41,334.12L538,332.91L538.47,332.37L538.16,331.92L538.63,330.71L539.7,329.52L538.34,327.86L538.09,326.44z" class="land"></path>
 													<path id="BI" title="Burundi" d="M557.52,475.93L557.34,472.56L556.63,471.3L558.34,471.52L559.2,469.93L560.69,470.11L560.85,471.21L561.45,471.84L561.48,472.75L560.79,473.33L559.69,474.79L558.68,475.8z" class="land"></path>
@@ -536,7 +499,7 @@
 													<path id="CI" title="Côte d'Ivoire" d="M467.24,449.46L465.97,449.49L464.01,448.94L462.22,448.97L458.89,449.46L456.95,450.27L454.17,451.29L453.63,451.22L453.84,448.92L454.11,448.57L454.03,447.46L452.84,446.29L451.95,446.1L451.13,445.33L451.74,444.09L451.46,442.73L451.59,441.91L452.04,441.91L452.2,440.68L451.98,440.14L452.25,439.75L453.29,439.41L452.6,437.15L451.95,435.99L452.18,435.02L452.74,434.81L453.1,434.55L453.88,434.97L456.04,435L456.56,434.17L457.04,434.23L457.85,433.91L458.29,435.12L458.94,434.76L460.1,434.34L461.36,434.96L461.85,435.89L463.11,436.49L464.09,435.78L465.41,435.67L467.33,436.4L468.07,440.41L466.89,442.77L466.16,445.94L467.37,448.35z" class="land"></path>
 													<path id="CL" title="Chile" d="M282.81,636.73l0,10.57l3,0l1.69,0.13l-0.93,1.98l-2.4,1.53l-1.38,-0.16l-1.66,-0.4l-2.04,-1.48l-2.94,-0.71l-3.53,-2.71l-2.86,-2.57l-3.86,-5.25l2.31,0.97l3.94,3.13l3.72,1.7l1.45,-2.17l0.91,-3.2l2.58,-1.91L282.81,636.73zM283.97,524.72l1.1,4.15l2.02,-0.41l0.34,0.76l-0.96,3.16l-3.05,1.51l0.09,5.14l-0.59,1l0.84,1.23l-1.98,1.95l-1.84,2.96l-1,2.9l0.27,3.11l-1.73,3.34l1.29,5.69l0.73,0.61l-0.01,3.09l-1.6,3.31l0.06,2.87l-2.12,2.26l0.01,3.22l0.85,3.46l-1.68,1.3l-0.75,3.22l-0.66,3.75l0.47,4.54l-1.13,0.77l0.65,4.4l1.27,1.46l-0.92,1.63l1.3,0.78l0.3,1.48l-1.22,0.75l0.3,2.33l-1.02,5.35l-1.49,3.52l0.33,2.11l-0.89,2.68l-2.15,1.88l0.25,4.6l0.99,1.6l1.87,-0.28l-0.05,3.33l1.16,2.63l6.78,0.61l2.6,0.71l-2.49,-0.03l-1.35,1.13l-2.53,1.67l-0.45,4.38l-1.19,0.11l-3.16,-1.54l-3.21,-3.25l0,0l-3.49,-2.63l-0.88,-2.87l0.79,-2.62l-1.41,-2.94l-0.36,-7.34l1.19,-4.03l2.96,-3.19l-4.26,-1.19l2.67,-3.57l0.95,-6.56l3.12,1.37l1.46,-7.97l-1.88,-1l-0.88,4.75l-1.77,-0.54l0.88,-5.42l0.96,-6.84l1.29,-2.48l-0.81,-3.5l-0.23,-3.98l1.18,-0.11l1.72,-5.6l1.94,-5.43l1.19,-4.97l-0.65,-4.91l0.84,-2.67l-0.34,-3.96l1.64,-3.87l0.51,-6.04l0.9,-6.37l0.88,-6.75l-0.21,-4.87l-0.58,-4.15l1.44,-0.75l0.75,-1.5l1.37,1.99l0.37,2.12l1.47,1.25l-0.88,2.87L283.97,524.72z" class="land"></path>
 													<path id="CM" title="Cameroon" d="M511.92,457.07L511.57,456.92L509.91,457.28L508.2,456.9L506.87,457.09L502.31,457.02L502.72,454.82L501.62,452.98L500.34,452.5L499.77,451.25L499.05,450.85L499.09,450.08L499.81,448.1L501.14,445.4L501.95,445.37L503.62,443.73L504.69,443.69L506.26,444.84L508.19,443.89L508.45,442.73L509.08,441.59L509.51,440.17L511.01,439.01L511.58,437.04L512.17,436.41L512.57,434.94L513.31,433.13L515.67,430.93L515.82,429.98L516.13,429.47L515.02,428.33L515.11,427.43L515.9,427.26L517.01,429.09L517.2,430.98L517.1,432.87L518.62,435.44L517.06,435.41L516.27,435.61L514.99,435.33L514.38,436.66L516.03,438.31L517.25,438.79L517.65,439.96L518.53,441.89L518.09,442.66L516.68,445.5L516.01,446.01L515.79,448.18L516.07,449.36L515.85,450.19L517.17,451.65L517.41,452.65L518.45,454.09L519.73,454.99L519.85,456.26L520.15,457.07L519.95,458.57L517.72,457.91L515.45,457.18z" class="land"></path>
-													<path id="CN" title="China, Hong Kong, Macau" class="land visited" d="M784.63,410.41l-2.42,1.41l-2.3,-0.91l-0.08,-2.53l1.38,-1.34l3.06,-0.83l1.61,0.07l0.63,1.13l-1.23,1.3L784.63,410.41zM833.19,302.89l4.88,1.38l3.32,3.03l1.13,3.95l4.26,0l2.43,-1.65l4.63,-1.24l-1.47,3.76l-1.09,1.51l-0.96,4.46l-1.89,3.89l-3.4,-0.7l-2.41,1.4l0.74,3.36l-0.4,4.55l-1.43,0.1l0.02,1.93l-1.81,-2.24l-1.11,2.13l-4.33,1.62l0.44,1.97l-2.42,-0.14l-1.33,-1.17l-1.93,2.64l-3.09,1.98l-2.28,2.35l-3.92,1.06l-2.06,1.69l-3.02,0.98l1.49,-1.67l-0.59,-1.41l2.22,-2.45l-1.48,-1.93l-2.44,1.3l-3.17,2.54l-1.73,2.34l-2.75,0.17l-1.43,1.68l1.48,2.41l2.29,0.58l0.09,1.58l2.22,1.02l3.14,-2.51l2.49,1.37l1.81,0.09l0.46,1.84l-3.97,0.97l-1.31,1.87l-2.73,1.73l-1.44,2.39l3.02,1.86l1.1,3.31l1.71,3.05l1.9,2.53l-0.05,2.43l-1.76,0.89l0.67,1.73l1.65,1l-0.43,2.61l-0.71,2.52l-1.57,0.28l-2.05,3.41l-2.27,4.09l-2.6,3.68l-3.86,2.82l-3.9,2.55l-3.16,0.35l-1.71,1.34l-0.97,-0.98l-1.59,1.5l-3.92,1.5l-2.97,0.46l-0.96,3.15l-1.55,0.17l-0.74,-2.16l0.66,-1.16l-3.76,-0.96l-1.33,0.49l-2.82,-0.78l-1.33,-1.22l0.44,-1.74l-2.56,-0.55l-1.35,-1.14l-2.39,1.62l-2.73,0.35l-2.24,-0.02l-1.5,0.74l-1.45,0.44l0.42,3.43l-1.5,-0.08l-0.25,-0.7l-0.08,-1.24l-2.06,0.87l-1.21,-0.55l-2.08,-1.13l0.82,-2.51l-1.78,-0.59l-0.67,-2.8l-2.96,0.51l0.34,-3.63l2.66,-2.58l0.11,-2.57l-0.08,-2.4l-1.22,-0.75l-0.94,-1.86l-1.64,0.24l-3.02,-0.47l0.95,-1.33l-1.31,-1.99l-2,1.35L740.4,378l-3.23,2.03l-2.55,2.36l-2.26,0.39l-1.23,-0.85l-1.48,-0.08l-2,-0.73l-1.51,0.8l-1.85,2.34l-0.24,-2.48l-1.71,0.66l-3.27,-0.31l-3.17,-0.73l-2.28,-1.39l-2.18,-0.63l-0.94,-1.53l-1.58,-0.46l-2.83,-2.09l-2.25,-0.99l-1.16,0.77l-3.9,-2.26l-2.75,-2.07l-0.79,-3.63l2.01,0.44l0.09,-1.69l-1.12,-1.71l0.28,-2.74l-3.01,-3.99l-4.61,-1.39l-0.83,-2.66l-2.07,-1.63l-0.5,-1.01l-0.42,-2.01l0.1,-1.38l-1.7,-0.81l-0.92,0.36l-0.71,-3.32l0.8,-0.83l-0.39,-0.85l2.68,-1.73l1.94,-0.72l2.97,0.49l1.06,-2.35l3.6,-0.44l1,-1.48l4.42,-2.03l0.39,-0.85l-0.22,-2.17l1.92,-1l-2.52,-6.75l5.55,-1.58l1.44,-0.89l2.02,-7.26l5.56,1.35l1.56,-1.86l0.13,-4.19l2.33,-0.39l2.13,-2.83l1.1,-0.35l0.74,2.97l2.36,2.23l4,1.57l1.93,3.32l-1.08,4.73l1.01,1.73l3.33,0.68l3.78,0.55l3.39,2.45l1.73,0.43l1.28,3.57l1.65,2.27l3.09,-0.09l5.79,0.85l3.73,-0.53l2.77,0.57l4.15,2.29l3.39,0l1.24,1.16l3.26,-2.01l4.53,-1.31l4.2,-0.14l3.28,-1.34l2.01,-2.05l1.96,-1.3l-0.45,-1.28l-0.9,-1.5l1.47,-2.54l1.58,0.36l2.88,0.8l2.79,-2.1l4.28,-1.55l2.05,-2.66l1.97,-1.16l4.07,-0.54l2.21,0.46l0.31,-1.45l-2.54,-2.89l-2.25,-1.33l-2.16,1.54l-2.77,-0.65l-1.59,0.53l-0.72,-1.71l1.98,-4.23l1.37,-3.25l3.37,1.63l3.95,-2.74l-0.03,-1.93l2.53,-4.73l1.56,-1.45l-0.04,-2.52l-1.54,-1.1l2.32,-2.31l3.48,-0.84l3.72,-0.13l4.2,1.39l2.46,1.71l1.73,4.61l1.05,1.94l0.98,2.73L833.19,302.89z"></path>
+													<path id="CN" title="<?php echo CARTE_CN;?>" class="land visited" d="M784.63,410.41l-2.42,1.41l-2.3,-0.91l-0.08,-2.53l1.38,-1.34l3.06,-0.83l1.61,0.07l0.63,1.13l-1.23,1.3L784.63,410.41zM833.19,302.89l4.88,1.38l3.32,3.03l1.13,3.95l4.26,0l2.43,-1.65l4.63,-1.24l-1.47,3.76l-1.09,1.51l-0.96,4.46l-1.89,3.89l-3.4,-0.7l-2.41,1.4l0.74,3.36l-0.4,4.55l-1.43,0.1l0.02,1.93l-1.81,-2.24l-1.11,2.13l-4.33,1.62l0.44,1.97l-2.42,-0.14l-1.33,-1.17l-1.93,2.64l-3.09,1.98l-2.28,2.35l-3.92,1.06l-2.06,1.69l-3.02,0.98l1.49,-1.67l-0.59,-1.41l2.22,-2.45l-1.48,-1.93l-2.44,1.3l-3.17,2.54l-1.73,2.34l-2.75,0.17l-1.43,1.68l1.48,2.41l2.29,0.58l0.09,1.58l2.22,1.02l3.14,-2.51l2.49,1.37l1.81,0.09l0.46,1.84l-3.97,0.97l-1.31,1.87l-2.73,1.73l-1.44,2.39l3.02,1.86l1.1,3.31l1.71,3.05l1.9,2.53l-0.05,2.43l-1.76,0.89l0.67,1.73l1.65,1l-0.43,2.61l-0.71,2.52l-1.57,0.28l-2.05,3.41l-2.27,4.09l-2.6,3.68l-3.86,2.82l-3.9,2.55l-3.16,0.35l-1.71,1.34l-0.97,-0.98l-1.59,1.5l-3.92,1.5l-2.97,0.46l-0.96,3.15l-1.55,0.17l-0.74,-2.16l0.66,-1.16l-3.76,-0.96l-1.33,0.49l-2.82,-0.78l-1.33,-1.22l0.44,-1.74l-2.56,-0.55l-1.35,-1.14l-2.39,1.62l-2.73,0.35l-2.24,-0.02l-1.5,0.74l-1.45,0.44l0.42,3.43l-1.5,-0.08l-0.25,-0.7l-0.08,-1.24l-2.06,0.87l-1.21,-0.55l-2.08,-1.13l0.82,-2.51l-1.78,-0.59l-0.67,-2.8l-2.96,0.51l0.34,-3.63l2.66,-2.58l0.11,-2.57l-0.08,-2.4l-1.22,-0.75l-0.94,-1.86l-1.64,0.24l-3.02,-0.47l0.95,-1.33l-1.31,-1.99l-2,1.35L740.4,378l-3.23,2.03l-2.55,2.36l-2.26,0.39l-1.23,-0.85l-1.48,-0.08l-2,-0.73l-1.51,0.8l-1.85,2.34l-0.24,-2.48l-1.71,0.66l-3.27,-0.31l-3.17,-0.73l-2.28,-1.39l-2.18,-0.63l-0.94,-1.53l-1.58,-0.46l-2.83,-2.09l-2.25,-0.99l-1.16,0.77l-3.9,-2.26l-2.75,-2.07l-0.79,-3.63l2.01,0.44l0.09,-1.69l-1.12,-1.71l0.28,-2.74l-3.01,-3.99l-4.61,-1.39l-0.83,-2.66l-2.07,-1.63l-0.5,-1.01l-0.42,-2.01l0.1,-1.38l-1.7,-0.81l-0.92,0.36l-0.71,-3.32l0.8,-0.83l-0.39,-0.85l2.68,-1.73l1.94,-0.72l2.97,0.49l1.06,-2.35l3.6,-0.44l1,-1.48l4.42,-2.03l0.39,-0.85l-0.22,-2.17l1.92,-1l-2.52,-6.75l5.55,-1.58l1.44,-0.89l2.02,-7.26l5.56,1.35l1.56,-1.86l0.13,-4.19l2.33,-0.39l2.13,-2.83l1.1,-0.35l0.74,2.97l2.36,2.23l4,1.57l1.93,3.32l-1.08,4.73l1.01,1.73l3.33,0.68l3.78,0.55l3.39,2.45l1.73,0.43l1.28,3.57l1.65,2.27l3.09,-0.09l5.79,0.85l3.73,-0.53l2.77,0.57l4.15,2.29l3.39,0l1.24,1.16l3.26,-2.01l4.53,-1.31l4.2,-0.14l3.28,-1.34l2.01,-2.05l1.96,-1.3l-0.45,-1.28l-0.9,-1.5l1.47,-2.54l1.58,0.36l2.88,0.8l2.79,-2.1l4.28,-1.55l2.05,-2.66l1.97,-1.16l4.07,-0.54l2.21,0.46l0.31,-1.45l-2.54,-2.89l-2.25,-1.33l-2.16,1.54l-2.77,-0.65l-1.59,0.53l-0.72,-1.71l1.98,-4.23l1.37,-3.25l3.37,1.63l3.95,-2.74l-0.03,-1.93l2.53,-4.73l1.56,-1.45l-0.04,-2.52l-1.54,-1.1l2.32,-2.31l3.48,-0.84l3.72,-0.13l4.2,1.39l2.46,1.71l1.73,4.61l1.05,1.94l0.98,2.73L833.19,302.89z"></path>
 													<path id="CO" title="Colombia" d="M263.92,463.81L262.72,463.15L261.34,462.23L260.54,462.67L258.16,462.28L257.48,461.08L256.96,461.13L254.15,459.54L253.77,458.67L254.82,458.46L254.7,457.07L255.35,456.06L256.74,455.87L257.93,454.12L259,452.66L257.96,451.99L258.49,450.37L257.86,447.81L258.46,447.08L258.02,444.71L256.88,443.21L257.24,441.85L258.15,442.05L258.68,441.21L258.03,439.56L258.37,439.14L259.81,439.23L261.92,437.26L263.07,436.96L263.1,436.03L263.62,433.64L265.23,432.32L266.99,432.27L267.21,431.68L269.41,431.91L271.62,430.48L272.71,429.84L274.06,428.47L275.06,428.64L275.79,429.39L275.25,430.35L273.45,430.83L272.74,432.25L271.65,433.06L270.84,434.12L270.49,436.13L269.72,437.79L271.16,437.97L271.52,439.27L272.14,439.89L272.36,441.02L272.03,442.06L272.13,442.65L272.82,442.88L273.49,443.86L277.09,443.59L278.72,443.95L280.7,446.36L281.83,446.06L283.85,446.21L285.45,445.89L286.44,446.38L285.93,447.88L285.31,448.82L285.09,450.83L285.65,452.68L286.45,453.51L286.54,454.14L285.12,455.53L286.14,456.14L286.89,457.12L287.74,459.89L287.21,460.24L286.67,458.59L285.89,457.71L284.96,458.67L279.5,458.61L279.53,460.35L281.17,460.64L281.08,461.71L280.52,461.42L278.94,461.88L278.93,463.9L280.17,464.92L280.61,466.51L280.54,467.72L279.28,475.37L277.88,473.88L277.04,473.82L278.85,470.98L276.7,469.67L275.02,469.91L274.01,469.43L272.46,470.17L270.37,469.82L268.72,466.9L267.42,466.18L266.53,464.86L264.67,463.54z" class="land"></path>
 													<path id="CR" title="Costa Rica" d="M242.63,440.4L241.11,439.77L240.54,439.18L240.86,438.69L240.76,438.07L239.98,437.39L238.88,436.84L237.91,436.48L237.73,435.65L236.99,435.14L237.17,435.97L236.61,436.64L235.97,435.86L235.07,435.58L234.69,435.01L234.71,434.15L235.08,433.25L234.29,432.85L234.93,432.31L235.35,431.94L237.2,432.69L237.84,432.32L238.73,432.56L239.2,433.14L240.02,433.33L240.69,432.73L241.41,434.27L242.49,435.41L243.81,436.62L242.72,436.87L242.74,438L243.32,438.42L242.9,438.76L243.01,439.27L242.78,439.84z" class="land"></path>
 													<path id="CU" title="Cuba" d="M244.58,396.94L247.01,397.16L249.21,397.19L251.84,398.22L252.96,399.33L255.58,398.99L256.57,399.69L258.95,401.56L260.69,402.91L261.61,402.87L263.29,403.48L263.08,404.32L265.15,404.44L267.27,405.66L266.94,406.35L265.07,406.73L263.18,406.88L261.25,406.64L257.24,406.93L259.12,405.27L257.98,404.5L256.17,404.3L255.2,403.44L254.53,401.74L252.95,401.85L250.33,401.05L249.49,400.42L245.84,399.95L244.86,399.36L245.91,398.61L243.16,398.46L241.15,400.02L239.98,400.06L239.58,400.8L238.2,401.13L237,400.84L238.48,399.91L239.08,398.82L240.35,398.15L241.78,397.56L243.91,397.27z" class="land"></path>
@@ -552,7 +515,7 @@
 													<path id="EG" title="Egypt" d="M573.17,377.28L572.38,378.57L571.78,380.97L571.02,382.61L570.36,383.17L569.43,382.15L568.16,380.73L566.16,376.16L565.88,376.45L567.04,379.82L568.76,383L570.88,387.88L571.91,389.56L572.81,391.3L575.33,394.7L574.77,395.23L574.86,397.2L578.13,399.91L578.62,400.53L567.5,400.53L556.62,400.53L545.35,400.53L545.35,389.3L545.35,378.12L544.51,375.54L545.23,373.54L544.8,372.15L545.81,370.58L549.54,370.53L552.24,371.39L555.02,372.36L556.32,372.86L558.48,371.83L559.63,370.9L562.11,370.63L564.1,371.04L564.87,372.66L565.52,371.59L567.76,372.36L569.95,372.55L571.33,371.73z" class="land"></path>
 													<path id="EH" title="Western Sahara" d="M438.57,383.06L442.19,383.07L450.94,383.1L450.94,383.1L450.94,383.1L442.19,383.07L438.57,383.06L438.46,383.15L438.41,383.19L436.63,386.39L434.77,387.53L433.75,389.44L433.69,391.09L432.94,392.88L432,393.37L430.44,395.31L429.48,397.46L429.66,398.48L428.74,400.05L427.66,400.87L427.53,402.26L427.41,403.53L428.02,402.53L439,402.55L438.47,398.2L439.16,396.65L441.78,396.38L441.69,388.52L450.9,388.69L450.9,383.96L450.96,383.35L450.96,383.14z" class="land"></path>
 													<path id="ER" title="Eritrea" d="M594,428.17L593.04,427.24L591.89,425.57L590.65,424.65L589.92,423.65L587.48,422.5L585.56,422.47L584.88,421.86L583.24,422.54L581.54,421.23L580.66,423.38L577.4,422.78L577.1,421.63L578.31,417.38L578.58,415.45L579.46,414.55L581.53,414.07L582.95,412.4L584.58,415.78L585.35,418.45L586.89,419.86L590.71,422.58L592.27,424.22L593.79,425.88L594.67,426.86L596.05,427.72L595.2,428.42z" class="land"></path>
-													<path id="ES" title="Spain" class="land visited" d="M449.92,334.56L450.06,331.88L448.92,330.22L452.88,327.45L456.31,328.15L460.08,328.12L463.06,328.78L465.39,328.58L469.92,328.7L471.04,330.19L476.2,331.92L477.22,331.1L480.38,332.82L483.63,332.33L483.78,334.52L481.12,337.01L477.53,337.79L477.28,339.03L475.55,341.06L474.47,344.02L475.56,346.07L473.94,347.67L473.34,349.97L471.22,350.67L469.23,353.36L465.68,353.41L463,353.35L461.25,354.57L460.18,355.88L458.8,355.59L457.77,354.42L456.97,352.42L454.35,351.88L454.12,350.72L455.16,349.4L455.54,348.44L454.58,347.38L455.35,345.03L454.23,342.86L455.44,342.56L455.55,340.84L456.01,340.31L456.04,337.43L457.34,336.43L456.56,334.55L454.92,334.42L454.44,334.89L452.79,334.9L452.08,333.06L450.94,333.61z"></path>
+													<path id="ES" title="<?php echo CARTE_ES;?>" class="land visited" d="M449.92,334.56L450.06,331.88L448.92,330.22L452.88,327.45L456.31,328.15L460.08,328.12L463.06,328.78L465.39,328.58L469.92,328.7L471.04,330.19L476.2,331.92L477.22,331.1L480.38,332.82L483.63,332.33L483.78,334.52L481.12,337.01L477.53,337.79L477.28,339.03L475.55,341.06L474.47,344.02L475.56,346.07L473.94,347.67L473.34,349.97L471.22,350.67L469.23,353.36L465.68,353.41L463,353.35L461.25,354.57L460.18,355.88L458.8,355.59L457.77,354.42L456.97,352.42L454.35,351.88L454.12,350.72L455.16,349.4L455.54,348.44L454.58,347.38L455.35,345.03L454.23,342.86L455.44,342.56L455.55,340.84L456.01,340.31L456.04,337.43L457.34,336.43L456.56,334.55L454.92,334.42L454.44,334.89L452.79,334.9L452.08,333.06L450.94,333.61z"></path>
 													<path id="ET" title="Ethiopia" d="M581.54,421.23L583.24,422.54L584.88,421.86L585.56,422.47L587.48,422.5L589.92,423.65L590.65,424.65L591.89,425.57L593.04,427.24L594,428.17L593.01,429.43L592.07,430.76L592.28,431.55L592.33,432.41L593.9,432.46L594.57,432.26L595.19,432.76L594.58,433.77L595.62,435.33L596.65,436.69L597.72,437.7L606.89,441.04L609.25,441.02L601.32,449.44L597.67,449.56L595.17,451.53L593.38,451.58L592.61,452.46L590.69,452.46L589.56,451.52L587,452.69L586.17,453.85L584.3,453.63L583.68,453.31L583.02,453.38L582.14,453.36L578.59,450.98L576.64,450.98L575.68,450.07L575.68,448.5L574.22,448.03L572.57,444.98L571.29,444.33L570.79,443.21L569.37,441.84L567.65,441.64L568.61,440.03L570.09,439.96L570.51,439.1L570.48,436.57L571.31,433.61L572.63,432.81L572.92,431.65L574.12,429.48L575.81,428.06L576.95,425.25L577.4,422.78L580.66,423.38z" class="land"></path>
 													<path id="FK" title="Falkland Islands" d="M303.66,633.13L307.02,630.44L309.41,631.56L311.09,629.77L313.33,631.78L312.49,633.36L308.7,634.72L307.44,633.13L305.06,635.18z" class="land"></path>
 													<path id="FI" title="Finland" d="M555.42,193.1L555.01,198.5L559.31,203.49L556.72,208.97L559.98,216.93L558.09,222.69L560.62,227.55L559.47,231.69L563.62,235.95L562.56,239.05L559.96,242.5L553.96,249.91L548.87,250.36L543.94,252.43L539.38,253.61L537.75,250.54L535.04,248.67L535.66,242.95L534.3,237.54L535.64,233.96L538.18,230.02L544.59,223L546.47,221.61L546.17,218.77L542.27,215.55L541.33,212.85L541.25,201.73L536.88,196.58L533.14,192.77L534.82,190.69L537.94,194.84L541.6,194.45L544.61,196.32L547.28,192.88L548.66,187.03L553.01,184.25L556.61,187.51z" class="land"></path>
@@ -582,7 +545,7 @@
 													<path id="IQ" title="Iraq" d="M602.61,355.77L604.44,356.81L604.66,358.81L603.24,359.98L602.59,362.62L604.54,365.8L607.97,367.62L609.42,370.12L608.96,372.49L609.85,372.49L609.88,374.22L611.43,375.91L609.77,375.76L607.88,375.49L605.82,378.57L600.61,378.31L592.71,371.82L588.53,369.53L585.15,368.64L584.02,364.6L590.23,361.1L591.29,356.98L591.02,354.46L592.56,353.6L594,351.42L595.2,350.87L598.46,351.33L599.45,352.22L600.79,351.63z" class="land"></path>
 													<path id="IR" title="Iran" d="M626.44,351.53L628.91,350.85L630.9,348.83L632.77,348.93L634,348.27L636,348.6L639.1,350.39L641.34,350.78L644.54,353.87L646.63,353.99L646.88,356.9L645.74,361.15L644.97,363.6L646.19,364.09L644.99,365.92L645.91,368.56L646.13,370.65L648.25,371.2L648.48,373.3L645.94,376.23L647.32,377.91L648.45,379.84L651.13,381.24L651.21,384.01L652.55,384.52L652.78,385.96L648.74,387.57L647.68,391.17L642.41,390.24L639.35,389.53L636.19,389.12L634.99,385.31L633.65,384.75L631.49,385.31L628.67,386.82L625.24,385.79L622.41,383.38L619.71,382.48L617.84,379.47L615.77,375.2L614.26,375.72L612.48,374.65L611.43,375.91L609.88,374.22L609.85,372.49L608.96,372.49L609.42,370.12L607.97,367.62L604.54,365.8L602.59,362.62L603.24,359.98L604.66,358.81L604.44,356.81L602.61,355.77L600.79,351.63L599.26,348.8L599.8,347.71L598.93,343.59L600.85,342.56L601.29,343.93L602.71,345.59L604.63,346.06L605.65,345.96L608.96,343.3L610.01,343.03L610.83,344.1L609.87,345.88L611.62,347.74L612.31,347.57L613.2,350.18L615.86,350.91L617.81,352.67L621.79,353.27L626.17,352.35z" class="land"></path>
 													<path id="IS" title="Iceland" d="M434.57,212.43L433.93,216.91L437.09,221.51L433.45,226.52L425.36,230.9L422.94,232.05L419.25,231.12L411.43,229.11L414.19,226.27L408.09,223.07L413.05,221.79L412.93,219.82L407.05,218.25L408.94,213.78L413.19,212.75L417.56,217.43L421.82,213.68L425.35,215.64L429.92,211.93z" class="land"></path>
-													<path id="IT" title="Italy" class="land visited" d="M518.77,347.88l-1.01,2.78l0.42,1.09l-0.59,1.79l-2.14,-1.31l-1.43,-0.38l-3.91,-1.79l0.39,-1.82l3.28,0.32l2.86,-0.39L518.77,347.88zM501.08,337.06l1.68,2.62l-0.39,4.81l-1.27,-0.23l-1.14,1.2l-1.06,-0.95l-0.11,-4.38l-0.64,-2.1l1.54,0.19L501.08,337.06zM509.95,315.46l4.01,1.05l-0.3,1.99l0.67,1.71l-2.23,-0.58l-2.28,1.42l0.16,1.97l-0.34,1.12l0.92,1.99l2.63,1.95l1.41,3.17l3.12,3.05l2.2,-0.02l0.68,0.83l-0.79,0.74l2.51,1.35l2.06,1.12l2.4,1.92l0.29,0.68l-0.52,1.31l-1.56,-1.7l-2.44,-0.6l-1.18,2.36l2.03,1.34l-0.33,1.88l-1.17,0.21l-1.5,3.06l-1.17,0.27l0.01,-1.08l0.57,-1.91l0.61,-0.77l-1.09,-2.09l-0.86,-1.83l-1.16,-0.46l-0.83,-1.58l-1.8,-0.67l-1.21,-1.49l-2.07,-0.24l-2.19,-1.68l-2.56,-2.45l-1.91,-2.19l-0.87,-3.8l-1.4,-0.45l-2.28,-1.29l-1.29,0.53l-1.62,1.8l-1.17,0.28l0.32,-1.68l-1.52,-0.49l-0.72,-3.04l0.97,-1.21l-0.83,-1.5l0.12,-1.13l1.21,0.86l1.35,-0.19l1.57,-1.36l0.49,0.64l1.34,-0.13l0.61,-1.63l2.07,0.51l1.24,-0.68l0.22,-1.67l1.7,0.58l0.33,-0.78l2.77,-0.71L509.95,315.46z"></path>
+													<path id="IT" title="<?php echo CARTE_IT;?>" class="land visited" d="M518.77,347.88l-1.01,2.78l0.42,1.09l-0.59,1.79l-2.14,-1.31l-1.43,-0.38l-3.91,-1.79l0.39,-1.82l3.28,0.32l2.86,-0.39L518.77,347.88zM501.08,337.06l1.68,2.62l-0.39,4.81l-1.27,-0.23l-1.14,1.2l-1.06,-0.95l-0.11,-4.38l-0.64,-2.1l1.54,0.19L501.08,337.06zM509.95,315.46l4.01,1.05l-0.3,1.99l0.67,1.71l-2.23,-0.58l-2.28,1.42l0.16,1.97l-0.34,1.12l0.92,1.99l2.63,1.95l1.41,3.17l3.12,3.05l2.2,-0.02l0.68,0.83l-0.79,0.74l2.51,1.35l2.06,1.12l2.4,1.92l0.29,0.68l-0.52,1.31l-1.56,-1.7l-2.44,-0.6l-1.18,2.36l2.03,1.34l-0.33,1.88l-1.17,0.21l-1.5,3.06l-1.17,0.27l0.01,-1.08l0.57,-1.91l0.61,-0.77l-1.09,-2.09l-0.86,-1.83l-1.16,-0.46l-0.83,-1.58l-1.8,-0.67l-1.21,-1.49l-2.07,-0.24l-2.19,-1.68l-2.56,-2.45l-1.91,-2.19l-0.87,-3.8l-1.4,-0.45l-2.28,-1.29l-1.29,0.53l-1.62,1.8l-1.17,0.28l0.32,-1.68l-1.52,-0.49l-0.72,-3.04l0.97,-1.21l-0.83,-1.5l0.12,-1.13l1.21,0.86l1.35,-0.19l1.57,-1.36l0.49,0.64l1.34,-0.13l0.61,-1.63l2.07,0.51l1.24,-0.68l0.22,-1.67l1.7,0.58l0.33,-0.78l2.77,-0.71L509.95,315.46z"></path>
 													<path id="JM" title="Jamaica" d="M257.76,410.96L259.65,411.22L261.14,411.93L261.6,412.73L259.63,412.78L258.78,413.27L257.21,412.8L255.61,411.73L255.94,411.06L257.12,410.86z" class="land"></path>
 													<path id="JO" title="Jordan" d="M574.92,367.87L575.41,366.82L578.53,368.14L584.02,364.6L585.15,368.64L584.62,369.13L579,370.78L581.8,374.04L580.87,374.58L580.41,375.67L578.27,376.11L577.6,377.27L576.38,378.25L573.26,377.74L573.17,377.28L574.57,372.11L574.5,370.84L574.92,369.88z" class="land"></path>
 													<path id="JP" title="Japan" d="M852.76,362.01l0.36,1.15l-1.58,2.03l-1.15,-1.07l-1.44,0.78l-0.74,1.95l-1.83,-0.95l0.02,-1.58l1.55,-2l1.59,0.39l1.15,-1.42L852.76,362.01zM870.53,351.73l-1.06,2.78l0.49,1.73l-1.46,2.42l-3.58,1.6l-4.93,0.21l-4,3.84l-1.88,-1.29L854,360.5l-4.88,0.75l-3.32,1.59l-3.28,0.06l2.84,2.46l-1.87,5.61l-1.81,1.37l-1.36,-1.27l0.69,-2.96l-1.77,-0.96l-1.14,-2.28l2.65,-1.03l1.47,-2.11l2.82,-1.75l2.06,-2.33l5.58,-1.02l3,0.7l2.93,-6.17l1.87,1.67l4.11,-3.51l1.59,-1.38l1.76,-4.38l-0.48,-4.1l1.18,-2.33l2.98,-0.68l1.53,5.11l-0.08,2.94l-2.59,3.6L870.53,351.73zM878.76,325.8l1.97,0.83l1.98,-1.65l0.62,4.35l-4.16,1.05l-2.46,3.76l-4.41,-2.58l-1.53,4.12l-3.12,0.06l-0.39,-3.74l1.39,-2.94l3,-0.21l0.82,-5.38l0.83,-3.09l3.29,4.12L878.76,325.8z" class="land"></path>
@@ -689,7 +652,7 @@
 							<!-- Section Photo -->
 							<section>
 								<header>
-									<p>...and immortalizing great moments.</p>
+									<p><?php echo CARTE_P2;?></p>
 								</header>
 								<div class="gallery">
 									<a href="images/gallery/fulls/dessin01.PNG">
@@ -727,39 +690,38 @@
 						<h2><?php echo GET_IN_TOUCH;?></h2>
 					</header>
 					<div class="content">
-						<p><strong>Say Hello!</strong></p>
-						<p>I'm always available to collaborate to new projects or to do new works. 
-							Drop me a line!</p>
+						<p><?php echo CONTACT_P1;?></p>
+						<p><?php echo CONTACT_P2;?></p>
 						<form>
 							<div class="fields">
 								<div class="field half">
-									<input type="text" name="name" id="name" placeholder="Name" />
+									<input type="text" name="name" id="name" placeholder="<?php echo CONTACT_NAME;?>" />
 								</div>
 								<div class="field half">
-									<input type="email" name="email" id="email" placeholder="Email" />
+									<input type="email" name="email" id="email" placeholder="<?php echo CONTACT_EMAIL;?>" />
 								</div>
 								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+									<textarea name="message" id="message" placeholder="<?php echo CONTACT_MSG;?>" rows="7"></textarea>
 								</div>
 							</div>
 							<ul class="actions">
-								<li><input type="submit" value="Send Message" class="button primary" /></li>
+								<li><input type="submit" value="<?php echo CONTACT_SEND;?>" class="button primary" /></li>
 							</ul>
 						</form>
-						<p>© 2019 All rights reserved. Brands mentionned above are property of their respective owner.</p>
+						<p><?php echo CONTACT_P3;?></p>
 					</div>
 					<footer>
 						<ul class="items">
 							<li>
-								<h3>Email</h3>
+								<h3><?php echo CONTACT_EMAIL;?></h3>
 								<a href="mailto:hello@troisfoismille.com">hello@troisfoismille.com</a>
 							</li>
 							<li>
-								<h3>Place</h3>
-								<p>Currently in <a href="https://fr.wikipedia.org/wiki/Bordeaux">Bordeaux</a>, France</p>
+								<h3><?php echo CONTACT_PLACE;?></h3>
+								<p><?php echo CONTACT_CURRENT?> <a href="https://fr.wikipedia.org/wiki/Bordeaux">Bordeaux</a>, France</p>
 							</li>
 							<li>
-								<h3>Elsewhere</h3>
+								<h3><?php echo CONTACT_RS?></h3>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/marie-aude-wu-yock-yeng/" target="_blank" class="icon fa-linkedin" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://twitter.com/marieaudewyy" target="_blank" class="icon fa-twitter" title="Twitter"><span class="label">Twitter</span></a></li>
