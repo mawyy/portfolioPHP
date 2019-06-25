@@ -353,13 +353,13 @@
 									<div class="gallery">
 										<p class="legend"><?php echo RESTAU_LEG1;?></p>
 										<p class="legend"><?php echo RESTAU_LEG2;?></p>
-										<a href="images/gallery/fulls/restau01.png" class="landscape">
+										<a href="images/gallery/fulls/restau01.png" class="demi-landscape">
 											<img class="img-lazy" data-src="images/gallery/thumbs/restau01.png" data-alt="Visuel choisi" />
 										</a>
-										<p class="legend"><?php echo RESTAU_LEG3;?></p>
-										<a href="images/gallery/fulls/restau05.png" class="demi-landscape">
-											<img class="img-lazy" data-src="images/gallery/thumbs/restau05.png" data-alt="Panneau du restaurant" />
+										<a href="images/gallery/fulls/restau05.jpg" class="demi-landscape">
+											<img class="img-lazy" data-src="images/gallery/thumbs/restau05.jpg" data-alt="Panneau du restaurant" />
 										</a>
+										<p class="legend"><?php echo RESTAU_LEG3;?></p>
 										<a href="images/gallery/fulls/restau02.png" class="demi-landscape ">
 											<img class="img-lazy" data-src="images/gallery/thumbs/restau02.png" data-alt="" />
 										</a>
@@ -740,6 +740,7 @@
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
+			<script type="text/javascript" src="assets/js/easypiechart.js"></script> 
 			<script src="assets/js/images-lazy-loader.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
