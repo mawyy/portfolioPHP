@@ -200,7 +200,7 @@ input, select, textarea {
 	/* texte dans le footer */
 
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h5, h6 {
 		color: #ffffff;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
@@ -4151,17 +4151,24 @@ input, select, textarea {
 #skills {
 	padding: 100px 0;
 }
+#skills hr {
+	background: rgba(172, 172, 172, 0.3);
+}
 #skills .skill {
 	margin-bottom: 40px;
 	text-align: center;
 	padding: 0px;
+}
+#skills .skill h4 {
+	font-weight: 600;
+	color: black;
 }
 .chart {
 	position: relative;
 	display: inline-block;
 	width: 152px;
 	height: 152px;
-	margin-bottom: 26px;
+	margin: 0 26px 26px 26px;
 	text-align: center;
 }
 .chart canvas {
