@@ -65,11 +65,11 @@
 	because they are good clients for French food. I identified the luxury market to sell the canelés 
 	of my client and wanted suitable graphical chart and visual identity for the website. Please 
 	<a href="files/Amuse-Bouche_report.pdf" target="_blank">read the report</a> to have 
-	all the details of the project. ');
+	all the details of the project.');
 	define('AB_LEG2', "Technologies used: Photoshop and Just in Mind.");
 	define('AB_LEG3', "You can see below the home page and an exemple of product detail, in desktop and mobile version. 
 	Click on the pictures to see full pages.");
-	define('AB_LEG4', "And here, the desktop version of the list of the products and the basket.");
+	define('AB_LEG4', "And here, the desktop version of the list of the products and the basket:");
 
 	define('MOVIE_H3', "Movie catalog app<br>(2019)");
 	define('MOVIE_P1', "Creation of a personal catalog in which you can store all your favourite movies and give them a mark,
@@ -105,7 +105,7 @@
 	when I worked in sales at <i>Pull And Bear Bordeaux</i>.");
 	define('DML_P2', "Made on the concept of a <b>Draw my life</b>.");
 	define('DML_P3', "Selected <i>Best Presentation</i> among all.");
-	define('DML_LEG1', "I've realized the illustrations with an erasable felt and some papers.
+	define('DML_LEG1', "I've realized the illustrations with erasable felts and some papers.
 	I filmed myself drawing with my Canon camera and I made the video editing
 	with Sony Vegas.");
 	define('DML_VID_ERR', "Sorry, your browser doesn't support embedded videos. 
@@ -122,11 +122,11 @@
 	define('SOJA_LEG1', "The client wanted something clean, streamlined and monochrome.");
 
 	define('RESTAU_H3', "Fong Mei<br><span class='capitalize'>(November 2018)</span>");
-	define('RESTAU_P1', "Creation of the visual sign of <i>Fong Mei</i> cantonese restaurant,	based in Antananarivo Madagascar.");
+	define('RESTAU_P1', "Creation of the temporary visual sign of <i>Fong Mei</i> cantonese restaurant,	based in Antananarivo Madagascar.");
 	define('RESTAU_LEG1', "The client wanted something very simple to open their restaurant quickly.");
 	define('RESTAU_LEG2', "They only gave me the dimensions of the final sign and the name of the restaurant in different languages
 	without any particular demand.");
-	define('RESTAU_LEG3', "These are other propositions made.");
+	define('RESTAU_LEG3', "These are other propositions made:");
 
 	define('BDE_H3', "Posters<br><span class='capitalize'>(2014-2015)</span>");
 	define('BDE_P1', "Communication posters made when I was a member of the students' association (Bureau des étudiants)
